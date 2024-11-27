@@ -1,73 +1,98 @@
 @media only screen and (max-width: 600px) {
-    body {
-    }
+  body {
+    font-size: 16px;
+    padding: 10px;
   }
-  
-  .open-sans {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    width: 100;
+  #navbar {
+    position: relative;
+    height: auto;
+    min-width: 100%;
   }
-  body{
-    background-color:tan;
-    min-width:350px;
+
+  #main-doc {
+    margin-left: 0;
+    margin-top: 10px;
   }
-  header{
-    font-family:Open Sans;
-    font-size:24px;
-    color:red;
-    font-weight:bold;
-    text-align:left;
-    display:block;
+
+  header {
+    font-size: 20px;
+    text-align: center;
   }
-  h1{
-    font-family:Open Sans;
-    font-size:40px;
-    padding-left:20px;
-    display:block;
+
+  h1 {
+    font-size: 32px;
+    padding-left: 10px;
   }
-  p{
-    font-family:Open Sans;
-  }
-  .main-section li{
-    font-size:18px;
-  }
-  #navbar{
-    position:fixed;
-    min-width:350px;
-    top:0px;
-    left:0px;
-    height:180px;
-  }
-  #navbar a{
-    display:block;
-    color:black;
-    cursor:pointer;
-    font-family:Open Sans;
-    font-weight:bold;
-    padding:10px 20px;
-  }
-  #navbar a:hover{
-    color:red;
-  }
-  #navbar ul{
-    list-style-type:none;
-    margin:0;
-    padding:10px;
-    height:100%;
-    overflow:auto;
-    font-family:Open Sans;
-    font-size:16px;
-  }
-  #navbar li{
-    color:red;
-    border:2px solid red;
-    margin:5px;
-  }
-  #main-doc{
-    position:relative;
-    margin-left:360px;
-    margin-top:80px
-  }
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  width: 100%;
+}
+
+body {
+  background-color: tan;
+  min-width: 350px;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  font-size: 24px;
+  color: red;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+}
+
+h1 {
+  font-size: 40px;
+  padding-left: 20px;
+  display: block;
+}
+
+.main-section li {
+  font-size: 18px;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 350px;
+  top: 0px;
+  left: 0px;
+  height: 180px;
+}
+
+#navbar a {
+  display: block;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+#navbar a:hover {
+  color: red;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  height: 100%;
+  overflow: auto;
+  font-size: 16px;
+}
+
+#navbar li {
+  color: red;
+  border: 2px solid red;
+  margin: 5px;
+}
+#main-doc {
+  position: relative;
+  margin-left: 360px;
+  margin-top: 80px;
+}
